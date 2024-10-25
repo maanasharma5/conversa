@@ -1,0 +1,74 @@
+.App-inputBox {
+    font-size: 16px; /* Font size */
+    padding: 10px;   
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    width: 100%; /* Full width of its container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for interactions */
+    color:  #4B6D4A;
+}
+
+.select-container {
+    flex-direction: column;
+    display: flex; 
+    width: 100%;
+    justify-content: left;
+}
+
+.language-select {
+    font-size: 16px; /* Font size */
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded corners */
+    margin-right: 10px; 
+    color:  #4B6D4A;
+    width: 20%; /* Full width of its container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for interactions */
+    color:  #4B6D4A;
+  }
+  
+  .language-select:focus {
+    border-color: #007bff; /* Border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Shadow effect on focus */
+    outline: none; /* Remove default outline */
+  }
+
+  .difficulty-select {
+    font-size: 16px; /* Font size */
+    color: white;
+    padding: 10px; 
+    margin-right: 90px;
+    /* margin-left: 30px; */
+    border: 1px solid #ccc; 
+    border-radius: 4px; /* Rounded corners */
+    color: #4B6D4A;
+    
+    width: 20%; /* Full width of its container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for interactions */
+
+   
+  }
+  
+  .difficulty-select:focus {
+    border-color: #007bff; /* Border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Shadow effect on focus */
+    outline: none; /* Remove default outline */
+  }
+
+  .send-button {
+    font-size: 16px; /* Font size */
+    padding: 10px; 
+    margin-left: 200px;
+    border: 1px solid #ccc; 
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff; /* Background color */
+   
+    width: 20%; /* Full width of its container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for interactions */
+    background: #4B6D4A;
+    color: white; 
+  }

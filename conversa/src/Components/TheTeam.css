@@ -1,0 +1,22 @@
+.team {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-member {
+    margin: 10px;
+  }
+  
+  .App-header p {
+    text-align: center;
+    margin: 20px auto; /* Optional: adjust spacing */
+    max-width: 800px; /* Optional: limit the width to make the text more readable */
+    line-height: 1.6; /* Optional: improve line spacing */
+  }
+  

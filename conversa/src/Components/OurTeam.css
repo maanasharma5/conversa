@@ -1,0 +1,13 @@
+.team-members {
+    display: flex; /* Align members horizontally */
+    flex-wrap: wrap; /* Ensure the items wrap if the screen is small */
+    gap: 0; /* Set gap to 0 to eliminate space between items */
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Center team members horizontally */
+  }
+  
+  .Individual {
+    margin: 0;
+    padding: 0;
+  }

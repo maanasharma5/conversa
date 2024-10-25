@@ -1,0 +1,22 @@
+.member {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .member-name {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .member-intro {
+    font-size: 1rem;
+    color: #555;
+  }
+  
